@@ -13,5 +13,5 @@
 ># Uncomment a feed source
 #echo 'src-git custom https://github.com/xiaorouji/openwrt-passwall.git;packages' >feeds.conf.default
 git clone https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
-git clone https://github.com/zhengmz/luci-app-zerotier package/luci-app-zerotier
+# git clone https://github.com/zhengmz/luci-app-zerotier package/luci-app-zerotier
 git clone https://github.com/sirpdboy/netspeedtest package/luci-app-netspeedtest
