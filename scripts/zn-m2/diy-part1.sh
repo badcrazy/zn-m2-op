@@ -15,4 +15,3 @@ rm -rf feeds/luci/applications/luci-app-ssr-plus
 git clone https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
 # git clone https://github.com/zhengmz/luci-app-zerotier package/luci-app-zerotier
 git clone https://github.com/sirpdboy/netspeedtest package/luci-app-netspeedtest
-git clone https://github.com/Mattraks/helloworld package/luci-app-ssr-plus
