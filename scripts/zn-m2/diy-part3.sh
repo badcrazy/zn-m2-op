@@ -14,12 +14,12 @@
 #sed -i 's/192.168.1.1/192.168.100.1/g' package/base-files/files/bin/config_generate
 
 # 替换golang版本为1.22
-rm -rf feeds/packages/lang/golang
-git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/lang/golang
+# rm -rf feeds/packages/lang/golang
+# git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/lang/golang
 
-rm -rf feeds/packages/net/mosdns
+# rm -rf feeds/packages/net/mosdns
 # git clone https://github.com/badcrazy/mosdns feeds/packages/net/mosdns
- git clone https://github.com/kenzok8/small feeds/packages/net
+# git clone https://github.com/kenzok8/small feeds/packages/net
 # ttyd免登陆
 # sed -i -r 's#/bin/login#/bin/login -f root#g' feeds/packages/utils/ttyd/files/ttyd.config
 
