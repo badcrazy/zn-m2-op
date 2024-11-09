@@ -19,7 +19,3 @@ git clone https://github.com/sirpdboy/netspeedtest package/luci-app-netspeedtest
 
 # 科学上网插件
 # git clone --depth=1 -b main https://github.com/fw876/helloworld package/luci-app-ssr-plus
-
-# MosDNS
-git clone --depth=1 https://github.com/sbwml/luci-app-mosdns package/luci-app-mosdns
-
