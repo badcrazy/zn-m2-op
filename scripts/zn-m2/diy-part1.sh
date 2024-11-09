@@ -13,7 +13,6 @@
 # 移除要替换的包
 
 # 添加额外插件
-git clone --depth=1 https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
 git clone https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
 # git clone https://github.com/zhengmz/luci-app-zerotier package/luci-app-zerotier
 git clone https://github.com/sirpdboy/netspeedtest package/luci-app-netspeedtest
