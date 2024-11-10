@@ -11,14 +11,12 @@
 #
 # Uncomment a feed source
 # 移除要替换的包
-rm -rf feeds/luci/applications/luci-app-ssr-plus
-rm -rf feeds/luci/applications/luci-app-ssr-libev-server
-rm -rf feeds/luci/applications/luci-app-ssr-mudb-server
+
 # 添加额外插件
 git clone https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
 # git clone https://github.com/zhengmz/luci-app-zerotier package/luci-app-zerotier
 # git clone https://github.com/sirpdboy/netspeedtest package/luci-app-netspeedtest
-it clone https://github.com/selfcan/luci-app-homebox  package/luci-app-homebox
+git clone https://github.com/selfcan/luci-app-homebox  package/luci-app-homebox
 
 # 科学上网插件
-git clone https://github.com/fw876/helloworld package/luci-app-ssr-plus
+# git clone https://github.com/fw876/helloworld package/luci-app-ssr-plus
