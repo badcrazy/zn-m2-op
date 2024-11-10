@@ -21,4 +21,4 @@ git clone https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adg
 it clone https://github.com/selfcan/luci-app-homebox  package/luci-app-homebox
 
 # 科学上网插件
-# git clone https://github.com/fw876/helloworld package/luci-app-ssr-plus
+git clone https://github.com/fw876/helloworld package/luci-app-ssr-plus
