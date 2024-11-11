@@ -20,4 +20,4 @@ git clone https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adg
 # git clone https://github.com/badcrazy/zerotier package/zerotier
 
 # 科学上网插件
-git clone https://github.com/fw876/helloworld package/app-ssr-plus
+# git clone https://github.com/fw876/helloworld package/app-ssr-plus
