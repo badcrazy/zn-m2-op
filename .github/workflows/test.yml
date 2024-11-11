@@ -25,9 +25,9 @@ env:
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.new
   CONFIG_FILE: ./config/test.config
-  DIY_P1_SH: ./scripts/zn-m2/diy-part1.sh
-  DIY_P2_SH: ./scripts/zn-m2/diy-part2.sh
-  DIY_P3_SH: ./scripts/zn-m2/diy-part3.sh
+  DIY_P1_SH: ./scripts/test/diy-part1.sh
+  DIY_P2_SH: ./scripts/test/diy-part2.sh
+  DIY_P3_SH: ./scripts/test/diy-part3.sh
   UPLOAD_BIN_DIR: true
   UPLOAD_RELEASE: false
   TZ: Asia/Shanghai
