@@ -11,13 +11,17 @@
 #
 # Uncomment a feed source
 # 移除要替换的包
-# rm -rf feeds/luci/applications/luci-app-zerotier
-# rm -rf feeds/packages/net/zerotier
+rm -rf feeds/packages/net/mosdns
+rm -rf feeds/packages/net/msd_lite
+rm -rf feeds/packages/net/smartdns
+rm -rf feeds/luci/themes/luci-theme-argon
+rm -rf feeds/luci/themes/luci-theme-netgear
+rm -rf feeds/luci/applications/luci-app-mosdns
+rm -rf feeds/luci/applications/luci-app-netdata
+rm -rf feeds/luci/applications/luci-app-serverchan
+rm -rf feeds/luci/themes/luci-theme-bootstrap
+rm -rf feeds/luci/applications/luci-app-upnp/
 # 添加额外插件
-git clone https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
-# git clone https://github.com/zhengmz/luci-app-zerotier package/luci-app-zerotier
-# git clone https://github.com/sirpdboy/netspeedtest package/luci-app-netspeedtest
-# git clone https://github.com/badcrazy/zerotier package/zerotier
-
-# 科学上网插件
-git clone https://github.com/fw876/helloworld package/app-ssr-plus
+git clone https://github.com/badcrazy/mypackage feeds/package
+# 取消主题默认设置
+find package/luci-theme-*/* -type f -name '*luci-theme-*' -print -exec sed -i '/set luci.main.mediaurlbase/d' {} \;
