@@ -22,7 +22,7 @@ permissions:
 
 env:
   REPO_URL: https://github.com/LiBwrt/openwrt-6.x.git
-  REPO_BRANCH: master
+  REPO_BRANCH: main
   FEEDS_CONF: feeds.conf.new
   CONFIG_FILE: ./config/test.config
   DIY_P1_SH: ./scripts/test/diy-part1.sh
